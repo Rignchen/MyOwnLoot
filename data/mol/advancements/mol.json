@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "My Own Loots",
+		"description": "Minecraft DataPack",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:rignchen",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

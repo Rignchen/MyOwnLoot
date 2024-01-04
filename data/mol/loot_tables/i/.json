@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "",
+					"functions": [
+						{
+							"function": "copy_nbt",
+							"ops": [
+								{
+									"op": "merge",
+									"source": "data..tag",
+									"target": "{}"
+								}
+							],
+							"source": {
+								"type": "storage",
+								"source": "mol:items"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
