@@ -1,7 +1,7 @@
 ## function mol:smithed_block/block/mol_chest
 
 data merge entity @s {item:{Count:1b,id:"minecraft:furnace",tag:{CustomModelData:9449900,mol:{Items:[],Lock:""}}},Tags:["mol_chest","container.nop"]}
-data modify entity @s Item.tag.mol.LootTable set from block ~ ~ ~ LootTable
+data modify entity @s item.tag.mol.LootTable set from block ~ ~ ~ LootTable
 
 #rotate
 execute if block ~ ~ ~ chest[facing=east] run data modify entity @s Rotation[0] set value 270f
