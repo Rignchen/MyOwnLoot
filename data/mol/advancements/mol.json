@@ -1,10 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:furnace",
+			"nbt": "{CustomModelData: 9449900}"
 		},
 		"title": "My Own Loots",
-		"description": "Minecraft DataPack",
+		"description": "Allow multiple players to loot the same chest",
 		"show_toast": false,
 		"announce_to_chat": false
 	},
