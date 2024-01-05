@@ -4,7 +4,7 @@
 function mol:items
 
 #scoreboard
-scoreboard objectives add mol.data dummy
+scoreboard objectives add mol.id dummy
 
 #define
 #define entity @a[tag=convention.debug]
