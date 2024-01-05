@@ -3,4 +3,6 @@
 # make reusable
 advancement revoke @s only mol:action/open_chest
 
-say @s has opened a chest
+# raycast to find chest the
+data merge storage iris:settings {Callback:"mol:action/open_chest/callback",Whitelist:"#mol:chest"}
+execute anchored eyes positioned ^ ^ ^ run function iris:get_target
