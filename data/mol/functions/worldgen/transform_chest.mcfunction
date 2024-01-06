@@ -1,4 +1,5 @@
 ## function mol:smithed_block/block/mol_chest
+## function mol:worldgen/chest_location
 
 data merge entity @s {item:{Count:1b,id:"minecraft:furnace",tag:{CustomModelData:9449900,mol:{Items:[],Lock:""}}},Tags:["mol_chest","container.nop"]}
 data modify entity @s item.tag.mol.LootTable set from block ~ ~ ~ LootTable

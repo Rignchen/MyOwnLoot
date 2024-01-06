@@ -12,3 +12,5 @@ scoreboard objectives add mol.chest_looted dummy
 #define score_holder #temp
 #define storage mol:items
 #define storage mol:data
+
+kill @e[type=item_display]
