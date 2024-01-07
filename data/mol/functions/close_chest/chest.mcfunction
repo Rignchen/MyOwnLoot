@@ -11,5 +11,7 @@ data modify block ~ ~ ~ LootTable set from entity @s item.tag.mol.LootTable
 
 #remove the information that it's open
 tag @s remove mol.open
-scoreboard players set @s mol.chest_looted 0
-scoreboard players set @s mol.id 0
+scoreboard players reset @s mol.chest_looted
+scoreboard players reset @s mol.id
+# reset is more efficient here because it's really likely that the player will open lots of chests
+# with set 0 the game would have to store a lot of useless data
