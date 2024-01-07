@@ -9,7 +9,7 @@
 						"predicate": {
 							"block": {
 								"blocks": [
-									"minecraft:chest"
+									"minecraft:barrel"
 								]
 							}
 						}

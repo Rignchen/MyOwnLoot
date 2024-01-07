@@ -1,5 +1,4 @@
 
-# this function is called by the player when he close a chest
+# this function is called by the chest when it closes
 
-execute store result storage mol:data temp.owner int 1 run scoreboard players get @s mol.id
-function mol:close_chest/player with storage mol:data temp
+execute at @s run function mol:close_chest/chest with entity @s[tag=mol.open] item.tag.mol
