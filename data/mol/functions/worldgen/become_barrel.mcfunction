@@ -14,4 +14,4 @@ data modify block ~ ~ ~ LootTable set from entity @s item.tag.mol.LootTable
 data modify block ~ ~ ~ Lock set from entity @s item.tag.mol.Lock
 
 #remove all item poping out
-function mol:remove_chest/kill_item
+function mol:schedule/remove_chest/kill_item
