@@ -2,6 +2,7 @@
 	"values": [
 		"#smithed.custom_block:load",
 		"iris:setup/load",
+		"#itemio:load",
 		"mol:load"
 	]
 }
