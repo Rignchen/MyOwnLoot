@@ -1,3 +1,3 @@
 ## function mol:schedule/worldgen/player
 
-$setblock $(x) ~ $(z)
+$execute positioned $(x) ~ $(z) run function mol:schedule/worldgen/get_chunk with storage mol:data temp
