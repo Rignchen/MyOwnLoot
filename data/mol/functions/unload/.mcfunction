@@ -1,5 +1,8 @@
 ## call by the player
 
+#remove chests
+execute as @e[tag=mol.chest] at @s run function mol:unload/chest
+
 #storages
 data remove storage mol:items data
 data remove storage mol:data chunk
