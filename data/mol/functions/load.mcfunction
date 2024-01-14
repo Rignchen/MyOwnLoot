@@ -13,6 +13,9 @@ scoreboard players set #area_size mol.data 16
 #start chest detection loop
 schedule function mol:schedule/ 2s
 
+#tell it is loaded
+tellraw @a[tag=convention.debug] [{"text":"[MOL]","color":"dark_aqua"},{"text":" My Own Loots has been loaded","color":"aqua"}]
+
 #define
 #define entity @a[tag=convention.debug]
 #define score_holder #temp
