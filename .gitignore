@@ -1,3 +1,4 @@
 .vscode
 # generated files
 search_chest.json
+*.zip

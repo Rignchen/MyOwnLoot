@@ -2,6 +2,7 @@
 
 #storages
 data remove storage mol:items data
+data remove storage mol:data chunk
 data remove storage mol:data temp
 
 #scoreboard
