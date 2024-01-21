@@ -10,7 +10,6 @@ execute if block ~ ~ ~ chest[facing=south] run setblock ~ ~ ~ barrel[facing=sout
 execute if block ~ ~ ~ chest[facing=west] run setblock ~ ~ ~ barrel[facing=west]
 
 #put data back
-data modify block ~ ~ ~ LootTable set from entity @s item.tag.mol.LootTable
 data modify block ~ ~ ~ Lock set from entity @s item.tag.mol.Lock
 
 #remove all item poping out
