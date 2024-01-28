@@ -4,8 +4,8 @@
   - ~~use /loot to generate the loot table~~
   - randomize the position of the items in the barrel
 
-- vider entièrement un coffre avant de le fermer regénère intégralement son contenu
-  - vérifier la condition détectant que le coffre a été ouvert par le joueur, /!\ ne pas directement récupérer le contenu du coffre, autrement le score risque d'être mis a 0
+- ~~vider entièrement un coffre avant de le fermer regénère intégralement son contenu~~
+  - ~~vérifier la condition détectant que le coffre a été ouvert par le joueur, /!\ ne pas directement récupérer le contenu du coffre, autrement le score risque d'être mis a 0~~
 - un barrel nbt copié lorsqu'il est ouvert ne peut être ouvert une fois pôsé
   - ajouter un advancement qui détecte si le joueur pose un barrel lock avec le custom lock
 
