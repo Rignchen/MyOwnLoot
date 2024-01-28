@@ -10,6 +10,10 @@ scoreboard objectives add mol.chest_looted dummy
 
 scoreboard players set #area_size mol.data 16
 
+##settings
+# 0 = no chest drop, 1 = drop mc chest, 2 = drop custom chest
+scoreboard players set #chest_drop mol.data 0
+
 #start chest detection loop
 schedule function mol:schedule/ 2s
 
