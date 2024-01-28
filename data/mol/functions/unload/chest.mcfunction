@@ -13,7 +13,7 @@ execute if block ~ ~ ~ barrel[facing=west] run setblock ~ ~ ~ chest[facing=west]
 function mol:tick/remove_chest/kill_item
 
 # put the loot table (and potential Items) in the chest
-data modify block ~ ~ ~ LootTable set from entity @s item.tag.mol.LootTable
+execute if entity @s[tag=!mol.open] run data modify block ~ ~ ~ LootTable set from entity @s item.tag.mol.LootTable
 execute if entity @s[tag=mol.open] run data modify block ~ ~ ~ Items set from entity @s item.tag.mol.Items
 
 #remove the entity
