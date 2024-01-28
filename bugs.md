@@ -8,7 +8,7 @@
   - ~~vérifier la condition détectant que le coffre a été ouvert par le joueur, /!\ ne pas directement récupérer le contenu du coffre, autrement le score risque d'être mis a 0~~
 - un barrel nbt copié lorsqu'il est ouvert ne peut être ouvert une fois pôsé
   - ajouter un advancement qui détecte si le joueur pose un barrel lock avec le custom lock
-
+- new chest don't keep barrel content when datapack is uninstalled
 
 # Here is a list of features requested by testers
 - Add a setting to disable the drop of the barrel when broken (/replace it with a mc chest)
