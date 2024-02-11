@@ -13,3 +13,4 @@
 # Requested features
 - ~~Add a setting to disable the drop of the barrel when broken (/replace it with a mc chest)~~
 - Add natureally spawned chest minecart, shulker, trapped chests and barrel support
+- ~~Change the furnace size to be invisible withouth the texture pack~~
